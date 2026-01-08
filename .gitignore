@@ -6,9 +6,9 @@ bin/
 *.so
 *.dylib
 
-# Build artifacts
-infra-scout
-infra-scout-*
+# Build artifacts (cross-compiled binaries in root)
+/infra-scout
+/infra-scout-*
 
 # Test artifacts
 *.test
