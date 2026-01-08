@@ -1,0 +1,40 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build artifacts
+infra-scout
+infra-scout-*
+
+# Test artifacts
+*.test
+coverage.out
+coverage.html
+
+# Dependency directories
+vendor/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# Debug files
+*.log
+debug/
+
+# Local configuration
+*.local
+.envrc
